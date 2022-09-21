@@ -1,0 +1,38 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+
+  background: url(/head.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.btn-primary {
+  width: fit-content;
+  border-radius: 10px;
+  color: black;
+  font-weight: 50;
+}
+h1 {
+  font-size: 3rem;
+  color: #a93232;
+}
+.btn-xl {
+  padding: 1rem 2rem;
+}
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: darkgoldenrod;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #ee4b08 !important;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+.buffer {
+  height: 10rem;
+}
